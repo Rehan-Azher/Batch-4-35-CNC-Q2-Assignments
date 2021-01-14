@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Assginment 7</title>
+</head>
+<body>
+    <h1>Chapter #7 - Forms</h1>
+    <form action="education@piaic.com">
+    
+
+            <fieldset>
+                    <legend>Your Details</legend>
+                        <label for="name">Name : </label>
+                        <input type="text" name="name" size="50px"><br>
+                        <br>
+                        <label for="email">Email : </label>
+                        <input type="text" name="email" size="50px"><br>
+                </fieldset><br>
+                    
+                <fieldset>
+                    <legend>Your Review</legend>
+                        <label for="selection">How did you hear about us?</label>
+                        <select name="selection_dd" id="sel_1"  size="1">
+                            <option value="google">Google</option>
+                            <option value="bing">Bing</option>
+                            <option value="yahoo">Yahoo</option>
+                            <option value="yandex">Yandex</option>
+                        </select><br>
+                        <br>
+                        <label for="radio">Would you visit again?</label><br>
+                        
+                        <input type="radio" name="rb_yes" id="rb_y" value="Yes">
+                        <label for="yes">Yes</label>
+
+                        <input type="radio" name="rb_no" id="rb_n" value="No">
+                        <label for="no">No</label>
+
+                        <input type="radio" name="rb_mb" id="rb_m" value="Maybe">
+                        <label for="may_be">Maybe</label><br>
+                        <br>
+
+                        <label for="comment">Comments:</label><br>
+                        <textarea name="comment" id="comm" cols="45" rows="5" ></textarea><br>
+                        <br>
+                        
+                        <input type="checkbox" name="chk_b" id="chk_1" checked>
+                        <label for="checkbox">Sign me up for email updates </label><br>
+
+                        <input type="submit" value="Submit Review">
+
+                </fieldset>
+
+    </form>
+</body>
+</html>
