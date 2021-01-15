@@ -1,0 +1,58 @@
+h1{
+    text-align: center; 
+}
+
+.table_s{
+  width: 100%;
+  align-self: center;
+}
+
+td{
+  width: 50px;
+  text-align: center;
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.hotpink{
+    background-color: hotpink;
+}
+
+.cornflowerblue{
+    background-color: cornflowerblue;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.seagreen{
+    background-color: seagreen;
+}
+
+.saddlebrown{
+    background-color: saddlebrown;
+}
+
+.goldenrod{
+    background-color: goldenrod;
+}
+
+.slateblue{
+    background-color: slateblue;
+}
+
+.lightpink{
+    background-color: lightpink;
+}
+
+.coral{
+    background-color: coral;
+}
+
+.salmon{
+    background-color: salmon;
+}
