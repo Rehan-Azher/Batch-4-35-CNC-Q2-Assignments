@@ -1,0 +1,30 @@
+#head{
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    }
+#shadow{
+    text-shadow: 2px 2px 3px gray;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.85em;
+}
+
+body{
+    font-family: Calibri;
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+ul{
+    list-style-type: disc;
+    font-size: 1.15em;
+}
+
+.drop{
+    font-size: 1.5em;
+    font-weight: bold;
+}
