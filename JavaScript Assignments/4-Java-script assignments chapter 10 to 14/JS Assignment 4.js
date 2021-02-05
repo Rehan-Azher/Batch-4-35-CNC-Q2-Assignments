@@ -27,4 +27,4 @@ var sum = parseInt(a)+parseInt(b)+parseInt(c)+parseInt(d)+parseInt(e);
 var t_marks = 500;
 var per = (sum/t_marks)*100;
 
-window.alert(per);
+window.alert("Percentage of Marks: "+per);
